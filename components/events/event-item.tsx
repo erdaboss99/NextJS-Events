@@ -13,7 +13,7 @@ const EventItem = ({ id, title, description, location, date, image, isFeatured }
 
 	const formattedAddress: string = location.replace(', ', '\n');
 
-	const exploreLink: string = `/event/${id}`;
+	const exploreLink: string = `/events/${id}`;
 
 	return (
 		<li className='shadow-c1 rounded-[8px] overflow-hidden bg-white m-[1rem] flex flex-col gap-[1rem] md:flex-row'>
