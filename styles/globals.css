@@ -20,3 +20,7 @@ h5,
 h6 {
 	font-family: 'Lato', sans-serif;
 }
+
+.summary h1 {
+	text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
