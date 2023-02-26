@@ -26,11 +26,15 @@ const EventItem = ({ id, title, description, location, date, image, isFeatured }
 				<div>
 					<h2 className='mx-0 my-[0.5rem] md:mx-0 md:my-[1rem]'>{title}</h2>
 					<div className='flex gap-[0.5rem] items-center'>
-						<DateIcon />
+						<div className='text-gray-500 w-[1.25rem] h-[1.25rem]'>
+							<DateIcon />
+						</div>
 						<time className='text-gray-500 font-bold'>{formattedDate}</time>
 					</div>
-					<div className='flex gap-[0.5rem] items-center'>
-						<AddressIcon />
+					<div className=' flex gap-[0.5rem] items-center'>
+						<div className='text-gray-500 w-[1.25rem] h-[1.25rem] '>
+							<AddressIcon />
+						</div>
 						<address className='text-gray-500 mx-0 my-[0.5rem] whitespace-pre'>
 							{formattedAddress}
 						</address>
@@ -40,7 +44,9 @@ const EventItem = ({ id, title, description, location, date, image, isFeatured }
 					<Button link={exploreLink}>
 						<span className='align-middle'>Explore Event</span>
 						<span className='align-middle ml-[0.5rem] inline-flex justify-center items-center'>
-							<ArrowRightIcon />
+							<div className='w-[1.25rem] h-[1.25rem]'>
+								<ArrowRightIcon />
+							</div>
 						</span>
 					</Button>
 				</div>
