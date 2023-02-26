@@ -1,11 +1,6 @@
 const DateIcon = () => {
 	return (
-		<svg
-			xmlns='http://www.w3.org/2000/svg'
-			fill='none'
-			viewBox='0 0 24 24'
-			stroke='currentColor'
-			className='w-[1.25rem] h-[1.25rem] text-gray-500'>
+		<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
 			<path
 				strokeLinecap='round'
 				strokeLinejoin='round'
