@@ -24,3 +24,7 @@ h6 {
 .summary h1 {
 	text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
+
+.logo {
+	font-family: 'Fira', sans-serif;
+}
